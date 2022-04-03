@@ -1,0 +1,29 @@
+{
+    "name": "theamasoud/laravel-attachments",
+    "description": "Laravel Attachments",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Abdulrahman Masoud",
+        "email": "theamasoud@gmail.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+          "TheAMasoud\\LaravelAttachments\\": "src/"
+        }
+    },    
+    "require": {
+      "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "TheAMasoud\\LaravelAttachments\\Providers\\AttachmentsServiceProvider"
+        ]
+      }
+    }
+    
+  }
