@@ -2,12 +2,13 @@
 
 namespace TheAMasoud\LaravelAttachments;
 
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use TheAMasoud\LaravelAttachments\Models\Attachment;
 use Illuminate\Support\Facades\Storage;
 
 trait Attachmentable
 {
-    public function attachments()
+    public function attachments(): MorphMany
     {
         return $this->morphMany(Attachment::class, 'attachmentable');
     }
