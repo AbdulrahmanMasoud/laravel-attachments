@@ -28,6 +28,6 @@ class CreateAttachmentsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(config('feedback.feedbacks_table'));
+        Schema::dropIfExists(config('attachments.attachment_table'));
     }
 }
