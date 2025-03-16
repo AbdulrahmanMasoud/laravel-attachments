@@ -15,7 +15,7 @@
         }
     },    
     "require": {
-      "phpunit/phpunit": "^11"
+      "phpunit/phpunit": "^11.0"
     },
     "require-dev": {},
     "extra": {
